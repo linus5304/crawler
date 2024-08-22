@@ -42,7 +42,7 @@ func getURLsFromHTML(htmlBody, rawBaseURL string) ([]string, error) {
 		}
 	}
 	traverseNodes(htmlNode)
-	fmt.Printf("%v", urls)
+	// fmt.Printf("%v", urls)
 
 	return urls, nil
 }
